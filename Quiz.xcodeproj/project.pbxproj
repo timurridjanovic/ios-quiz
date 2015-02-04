@@ -21,6 +21,8 @@
 		2F23AB841A82788F002E386D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F23AB651A82788F002E386D /* Foundation.framework */; };
 		2F23AB8C1A82788F002E386D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F23AB8A1A82788F002E386D /* InfoPlist.strings */; };
 		2F23AB8F1A82788F002E386D /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23AB8E1A82788F002E386D /* QuizTests.m */; };
+		2F23AB9B1A82796B002E386D /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23AB991A82796B002E386D /* QuizViewController.m */; };
+		2F23AB9C1A82796B002E386D /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F23AB9A1A82796B002E386D /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		2F23AB8B1A82788F002E386D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F23AB8D1A82788F002E386D /* QuizTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizTests.h; sourceTree = "<group>"; };
 		2F23AB8E1A82788F002E386D /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		2F23AB981A82796B002E386D /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		2F23AB991A82796B002E386D /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		2F23AB9A1A82796B002E386D /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,9 @@
 			children = (
 				2F23AB721A82788F002E386D /* AppDelegate.h */,
 				2F23AB731A82788F002E386D /* AppDelegate.m */,
+				2F23AB981A82796B002E386D /* QuizViewController.h */,
+				2F23AB991A82796B002E386D /* QuizViewController.m */,
+				2F23AB9A1A82796B002E386D /* QuizViewController.xib */,
 				2F23AB6A1A82788F002E386D /* Supporting Files */,
 			);
 			path = Quiz;
@@ -227,6 +235,7 @@
 				2F23AB761A82788F002E386D /* Default.png in Resources */,
 				2F23AB781A82788F002E386D /* Default@2x.png in Resources */,
 				2F23AB7A1A82788F002E386D /* Default-568h@2x.png in Resources */,
+				2F23AB9C1A82796B002E386D /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			files = (
 				2F23AB701A82788F002E386D /* main.m in Sources */,
 				2F23AB741A82788F002E386D /* AppDelegate.m in Sources */,
+				2F23AB9B1A82796B002E386D /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
